@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is first server</title>
+</head>
+<body>
+<h1>This is first server</h1>
+<p>My name is {{name}}.<br>
+    {% if more_details == True and age == 36: %}
+        Currently, I am an {{citizen}}
+        {% for i in range(age): %}
+            <p> age is {{i + 3}}
+    {% endfor %}
+        I aspire to be a french citizen.
+    {% endif %}
+</p>
+</body>
+</html>

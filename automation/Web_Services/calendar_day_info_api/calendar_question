@@ -1,0 +1,28 @@
+Calendar Day Info API
+Create a HTTP API using flask that is able to return the corresponding US holiday and \
+name day for a given date.
+Endpoints
+/date
+Returns the corresponding US holiday name and the list of name day names for a given date.
+Query params:
+year - example value: 2021
+month - example value: 12
+day - example value: 24
+Example response
+{"holiday":"Christmas Day","nameday":"Adan, Adana, Adam, Adamina, Addison, Ava, Eva, Eve, Evelyn"}
+/usage
+Renders an HTML page that lists all the requests that have been made to the /date endpoint \
+since the application is running. It should list the given parameters as well.
+A
+Page 1 of 3
+MIB Automation – ITLB354 – Examination Version
+
+In the implementation of the endpoints you should use other 3rd party API’s to retrieve data.\
+ Use the following API for the US namedays: https://api.abalin.net/
+Use the following API for the US holidays:
+https://date.nager.at/
+- good requests and parsing (20 points)
+- handling the endpoint parameters and correct response values (10 points)\
+ - server side rendering (10 points)
+- optimal solution and error handling (10 points)
+- clean code (10 points)

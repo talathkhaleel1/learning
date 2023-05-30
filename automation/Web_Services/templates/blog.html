@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello, this is my blog</title>
+</head>
+<body>
+<h1>This is my blog.</h1>
+<p>This is the content of this blog.</p>
+<p>My name is {{name}}.<br>
+    {% if more_details == True: %}
+        {% for i in range(number)%}
+            <p>number is {{i}}</p>
+        {% endfor %}
+<p> Even though I am an {{citizen}}, my ancestors are of {{origin}} origin. </p>
+    {% endif %}
+</body>
+</html>

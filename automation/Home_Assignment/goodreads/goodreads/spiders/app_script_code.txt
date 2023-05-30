@@ -1,0 +1,23 @@
+function myFunction() {
+  // let email_ID_list = SpreadsheetApp.create("list of emails");
+  // email_ID_list.getRange("A1:A3").setValues([["a1@gmail.com"], ["a2@gmail.com"], ["a3@gmail.com"]]);
+  mailing_list = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1NPsjYhn0aLKaKwNYsdk72lAGcaka5di-F_CzMHKhyz8/edit#gid=0");
+  console.log(mailing_list.getRange("A1:A3").getValues());
+
+  let list_of_authors = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1UDAAVzRPa-epIKl6LVDREvNEDm5a8UVvdUF6DozCSIk/edit#gid=1881256522");
+  console.log(list_of_authors.getRange("A1:A5").getValues());
+  let polling_for_authors_list = FormApp.create("Highly rated authors");
+let authors = polling_for_authors_list.addMultipleChoiceItem();
+
+let authors_names = [];
+for (let row of list_of_authors.getRange("A1:A5").getValues()){
+   authors_names.push(authors.createChoice(row));
+}
+
+authors.setTitle("Vote for your favourite author").setChoices(authors_names);
+
+MailApp.sendEmail("talathkhaleel1@gmail.com", "Requesting your valuable vote", "Here is the form " + polling_for_authors_list.getPublishedUrl())
+
+
+
+}

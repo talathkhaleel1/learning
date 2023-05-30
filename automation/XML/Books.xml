@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Book book_types = "cartoons">
+    <Books_details>
+        <book_number>Book1</book_number>
+            <name>Scrooge Mc Duck</name>
+            <Author>Carl Barks</Author>
+            <Publisher>Warner Brothers</Publisher>
+            <Synopsis>A story about the world's richest duck and his three naughty but cute nephews.</Synopsis>
+            <Date_of_Publication>28 September 2021</Date_of_Publication>
+            <Language>English</Language>
+            <ISBN_number>123456789</ISBN_number>
+            <Book_ID>987654321</Book_ID>
+            <Famous_quotes>
+                "Launchpad, is this a stunt you learned in flight school?"
+                "You're a sweet kid, but don't press your luck."
+                "You go ahead, Webby dear."
+            </Famous_quotes>
+        <book_number>Book2</book_number>
+            <name>Unicorn - The Mythical Creature</name>
+            <Author>Peter S. Beagle</Author>
+            <Publisher>Usborne Publishing Ltd</Publisher>
+            <Synopsis>The unicorn is a legendary creature that has been described since antiquity as
+                a beast with a single large, pointed, spiraling horn projecting from its forehead.
+                In European literature and art, the unicorn has for the last thousand years or so
+            depicted as a white horse-like or goat-like animal with a long straight horn with
+            grooves, cloven hooves, and sometimes a goat's beard. In the Middle Ages and
+            Renaissance,it was commonly described as an extremely wild woodland creature,
+            a symbol of purity and grace, which could be captured only by a virgin.
+            In the encyclopedias, its horn was said to have the power to render poisoned water potable
+            and to heal sickness. In medieval and Renaissance times, the tusk of the narwhal was
+            sometimes sold as a unicorn horn.</Synopsis>
+            <Date_of_Publication>30 June 2006</Date_of_Publication>
+            <Language>English</Language>
+            <ISBN_number>0746071612</ISBN_number>
+            <Book_ID>978-0746071618</Book_ID>
+            <Famous_quotes>
+                “Life's not easy for unicorns.”
+                “The unicorn is not known for its horn, beauty, or purity; but for its strength and courage as one.”
+                “You may have stopped believing in unicorns, but they never stopped believing in you.”
+            </Famous_quotes>
+        <book_number>Book3</book_number>
+            <name>Chip and Dale</name>
+            <Author>Dick Kinney</Author>
+            <Publisher>Disney Comics</Publisher>
+            <Synopsis>Chip and Dale (also spelled Chip 'n' Dale or Chip an' Dale) are duo of cartoon characters<br>
+            created in 1943 by The Walt Disney Company.
+            As anthropomorphic chipmunk brothers,[2] their names are a pun on the name of the
+            18th-century cabinet maker and furniture designer Thomas Chippendale.
+            This was suggested by Bill "Tex" Henson, a story artist at the studio.
+            The characters were first introduced in the 1943 Pluto short Private Pluto,
+            directed by Clyde Geronimi, in which they fight with Pluto about whether they
+            can store their nuts in a military base cannon.</Synopsis>
+            <Date_of_Publication>June 1990 – December 1991</Date_of_Publication>
+            <Language>English</Language>
+            <ISBN_number>0746071612</ISBN_number>
+            <Book_ID>34546576</Book_ID>
+            <Famous_quotes>
+                "That was a close one.Are you OK Dale?"
+                "Yeah. Luckily it landed on my head."
+                "We can't waste our time playing pirates. We're Rescue Rangers. We've got jobs to do."
+            </Famous_quotes>
+    </Books_details>
+</Book>
